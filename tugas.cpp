@@ -65,6 +65,14 @@ public:
 };
 
 int main() {
-    
+
     LayangLayang ObjectLayang;
     BelahKetupat ObjectBelah;
+
+    ObjectLayang.inputData();
+    ObjectBelah.inputData();
+
+    cout << "\n========== HASIL ==========" << endl;
+    ObjectLayang.tampilkanHasil();
+    ObjectBelah.tampilkanHasil();
+ 
