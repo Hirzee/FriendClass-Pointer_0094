@@ -63,3 +63,8 @@ public:
         cout << "Keliling Belah Ketupat : " << hitungKeliling() << endl;
     }
 };
+
+int main() {
+    
+    LayangLayang ObjectLayang;
+    BelahKetupat ObjectBelah;
