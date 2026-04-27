@@ -25,3 +25,11 @@ public:
     double hitungKeliling() {
         return 2 * (sisiA + sisiB);
     }
+
+    void tampilkanHasil() {
+        cout << "Luas Layang-Layang     : " << hitungLuas() << endl;
+        cout << "Keliling Layang-Layang : " << hitungKeliling() << endl;
+    }
+
+    friend class BelahKetupat;
+};
