@@ -53,3 +53,13 @@ public:
     double hitungKeliling() {
         return 4 * sisi;
     }
+
+    void infoSpesial(LayangLayang &l) {
+        cout << "(Info Friend: Belah Ketupat tahu sisi atas Layang-Layang adalah " << l.sisiA << ")" << endl;
+    }
+
+    void tampilkanHasil() {
+        cout << "Luas Belah Ketupat     : " << hitungLuas() << endl;
+        cout << "Keliling Belah Ketupat : " << hitungKeliling() << endl;
+    }
+};
